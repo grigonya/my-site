@@ -92,6 +92,7 @@ nav a {
     padding: 20px 30px;
     font-size: 2rem;
     font-weight: bold;
+    color: #ff0606;
 
     opacity: 0;
     transform: translateX(-150%);
