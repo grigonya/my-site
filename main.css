@@ -87,12 +87,13 @@ nav a {
 }
 
 .title_text {
+    color: #ff0606;
     margin: 40px auto 5% auto;
     margin-left: 15%;
     padding: 20px 30px;
     font-size: 2rem;
     font-weight: bold;
-    color: #ff0606;
+
 
     opacity: 0;
     transform: translateX(-150%);
