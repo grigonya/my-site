@@ -1,0 +1,144 @@
+body {
+    margin: 0;
+    /* background-color: rgb(119, 1, 89); */
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url('../img/larry.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+
+/* HEADER */
+header{
+        top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    position: sticky;
+    /* width: 100%; */
+    /* left: 0; */
+
+    z-index: 1000;
+    background-color: #4d0657;
+    box-shadow: 0 4px 6px rgba(243, 243, 243, 0.3);
+    
+}
+
+
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    
+}
+
+.logo-text {
+    color: aquamarine;
+    font-size: 24px;
+    margin: 0;
+}
+
+.header__img {
+    height: 128px;
+    width: 128px;
+}
+
+
+
+
+nav ul {
+    align-items: center;
+    display: flex;
+    list-style: none;
+    margin: 10%;
+    padding: 0;
+    gap: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(161, 1, 253);
+    font-weight: bold;
+}
+
+.container {
+    margin: 30px auto 20px auto;
+    max-width: 70%;         /* ограничиваем ширину */
+ 
+    padding: 20px 50px;         /* внутренние отступы */
+    background-color: #b13ca7;     /* цвет фона */
+    border-radius: 15px;        /* скругление углов */
+    box-shadow: 0 8px 20px rgba(212, 42, 190, 0.774); /* тень */
+}
+
+.title_text {
+    margin: 40px auto 5% auto;
+    margin-left: 15%;
+    padding: 20px 30px;
+    font-size: 2rem;
+    font-weight: bold;
+
+    opacity: 0;
+    transform: translateX(-150%);
+    animation: slideIn 1.2s ease-out forwards;
+
+}
+
+.text {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 5%;
+    text-align: center;
+    color:#4d0657;
+}
+
+.text2 {
+    font-size: 2rem;
+    color: azure;
+    margin-top: 5%;
+    text-align: center;
+}
+
+@keyframes slideIn {
+    0% {
+        opacity: 0;
+        transform: translateX(-150%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 */
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+    border-radius: 15px;       /* закруглённые углы */
+    box-shadow: 0 8px 20px rgba(0,0,0,0.3); /* тень */
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.fear {
+    margin-top: 30%;
+    margin-left: 80%;
+    color: #ff0606;
+}
+
+.waltuh {
+    position: absolute;
+}
