@@ -2,7 +2,7 @@ body {
     margin: 0;
    
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-    background-image: url('../img/larry.jpg');
+    background-image: url('larry.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
